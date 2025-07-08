@@ -1,0 +1,66 @@
+.main-heading {
+  font-size: 7rem;
+  line-height: 0.85;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.margin-bottom-6 {
+  margin-bottom: 6em;
+}
+
+.translate-middle-x {
+  transform: translateX(-50%);
+}
+
+.min-w-fit-content {
+  min-width: fit-content !important;
+}
+
+.custom-gradient {
+  background: linear-gradient(to right, #d95db0, #3344dc);
+}
+
+.min-w-10 {
+  min-width: 10rem;
+}
+
+.right-24 {
+  right: 6rem;
+}
+
+.start-82 {
+  left: 82%;
+}
+
+.custom-top-right {
+  top: 25%;
+  right: 0;
+}
+
+.max-w-777 {
+  max-width: 777px;
+}
+.max-w-500 {
+  max-width: 500px;
+}
+.right-3 {
+  right: 3rem;
+}
+.custom-max-w-4xl {
+  max-width: 56rem;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: inline-flex;
+  animation: marquee 10s linear infinite;
+}
