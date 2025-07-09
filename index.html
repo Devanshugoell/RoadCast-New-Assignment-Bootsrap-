@@ -18,11 +18,11 @@
     ></script>
     <title>RoadCast Assignment using Bootstrap</title>
   </head>
-  <body class="container">
+  <body>
     <!-- Header  -->
 
     <header
-      class="bg-black text-white rounded-bottom-5 d-flex justify-content-between"
+      class="container bg-black text-white rounded-bottom-5 d-flex justify-content-between"
     >
       <div class="d-flex gap-3">
         <div class="px-4 pt-2">
@@ -89,7 +89,7 @@
     <!-- More simplicity, flexibility, design and exchanges  -->
 
     <section
-      class="d-flex flex-column gap-3 justify-content-center align-items-center container my-5"
+      class="container d-flex flex-column gap-3 justify-content-center align-items-center container my-5"
     >
       <h2 class="fs-1 text-center max-w-777">
         More simplicity, flexibility, design and exchanges
@@ -106,7 +106,7 @@
 
     <!-- wrap offer -->
 
-    <section class="bg-black text-white rounded-3 d-flex">
+    <section class="container bg-black text-white rounded-3 d-flex">
       <div class="position-relative right-3">
         <img src="Assets/Small Image.png" alt="Image" />
       </div>
@@ -133,16 +133,87 @@
       </div>
     </section>
 
+    <!-- toast offer and club offer   -->
+
+    <section
+      class="d-flex justify-content-start align-items-center flex-row bg-white shadow-lg mt-5 mb-4 position-relative end-0 -left-4rem ps-0 ml-4 w-93 my-5"
+    >
+      <div class="d-flex max-w-640px">
+        <img
+          src="Assets/toastLeftSideImage.png"
+          alt="toast LeftSide Image"
+          class="h-100 block"
+        />
+        <div class="d-flex gap-2 flex-column p-4">
+          <div class="d-flex gap-4">
+            <p class="font-bold fs-2">toast offer</p>
+            <img src="Assets/breadImg.png" alt="breadImage" />
+          </div>
+          <p>
+            You need a <span class="fw-bold">fast and effective </span> online
+            presence but above all limited in terms of time and/or budget: the
+            toast offer is made for you!
+            <br />
+            <br /><br />
+            Personalized design, support, advice...
+          </p>
+          <p class="fw-bold">
+            👉 All this based on a solid SEO foundation so that your future
+            customers can find you in just a few clicks.
+          </p>
+          <div>
+            <button
+              class="rounded-5 min-w-10 p-2 text-white custom-gradient border-0 mt-5 mb-3"
+            >
+              tell us about your needs
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex max-w-640px">
+        <img
+          src="Assets/toastLeftSideImage.png"
+          alt="toast LeftSide Image"
+          class="h-100 block"
+        />
+        <div class="d-flex gap-2 flex-column p-4">
+          <div class="d-flex gap-4">
+            <p class="font-bold fs-2">club offer</p>
+            <img src="Assets/glassImg.png" alt="glassImg" />
+          </div>
+          <p>
+            Are you an agency and need support for specific projects? Are you a
+            team of experts looking to bring on board people who can adapt to
+            your organization? Is your request more aligned with a specific
+            technology?
+            <br /><br />
+            Personalized design, support, advice...
+          </p>
+          <p class="fw-bold">
+            👉 The strength of this offer is the network: everyone has their own
+            specialty and each project has their own expertise.
+          </p>
+          <div>
+            <button
+              class="rounded-5 min-w-10 p-2 text-white custom-gradient border-0 m-2 my-3"
+            >
+              tell us about your needs
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- sergonomie -->
 
     <section
-      class="my-4 position-relative overflow-hidden text-nowrap w-100 bg-white -rotate-2"
+      class="my-5 position-relative overflow-hidden text-nowrap w-100 bg-white -rotate-2"
     >
       <div class="d-inline-block animate-marquee">
-        <p class="fw-bolder text-14 px-4 d-inline-block text-gray-100">
+        <p class="fw-bolder text-12 px-4 d-inline-block text-gray-100">
           sergonomie
         </p>
-        <p class="fw-bolder text-14 px-4 d-inline-block text-gray-100">
+        <p class="fw-bolder text-12 px-4 d-inline-block text-gray-100">
           sergonomie
         </p>
       </div>
@@ -150,42 +221,55 @@
 
     <!-- Make you grow, together . -->
 
-    <section
-      class="d-flex justify-content-between align-items-center h-[900px]"
-    >
-      <div class="col-3">
-        <img
-          src="Assets/girlWritingImage.png"
-          alt="girlWritingImage"
-          class="w-50"
-        />
-      </div>
-      <div class="col-6 text-center">
-        <h1 class="fs-1 fw-semibold my-5">Make you grow, together .</h1>
-        <p class="fs-6">
-          You have a lot to teach us about your market and your offering.
-          <span class="fw-bold"
-            >Valuable information that deserves our full attention </span
-          >: because a digital solution is built together. That's why a project
-          never starts without a proper kick-off, and we've developed
-          <span class="fw-bold">co-construction </span> methodologies. Involving
-          you in every step of the project gives you control over it.
-        </p>
-        <button
-          class="translate-middle-x rounded-5 min-w-10 p-2 text-white custom-gradient border-0 m-2 my-3"
+    <section class="container h-600">
+      <div
+        class="row align-items-center justify-content-between h-100 position-relative"
+      >
+        <div
+          class="col-md-3 text-center mb-4 mb-md-0 position-absolute top-0 start-0"
         >
-          Contact
-        </button>
-      </div>
-      <div class="col-3">
-        <img src="Assets/Image 2.png" alt="Second Image" class="w-50" />
+          <img
+            src="Assets/girlWritingImage.png"
+            alt="Girl Writing"
+            class="img-fluid w-75"
+          />
+        </div>
+        <div
+          class="d-flex flex-column justify-content-center align-items-center text-center h-100"
+        >
+          <h1 class="fs-1 fw-semibold my-4">Make you grow, together.</h1>
+          <p class="fs-6 px-3 px-5 max-w-777">
+            You have a lot to teach us about your market and your offering.
+            <span class="fw-bold"
+              >Valuable information that deserves our full attention </span
+            >: because a digital solution is built together. That's why a
+            project never starts without a proper kick-off, and we've developed
+            <span class="fw-bold">co-construction </span> methodologies.
+            Involving you in every step of the project gives you control over
+            it.
+          </p>
+          <button
+            class="btn text-white custom-gradient rounded-5 px-4 py-2 mt-3 border-0"
+          >
+            Contact Us
+          </button>
+        </div>
+        <div
+          class="col-md-3 text-center mt-4 mt-md-0 position-absolute bottom-0 end-0"
+        >
+          <img
+            src="Assets/Image 2.png"
+            alt="Second Image"
+            class="img-fluid w-75"
+          />
+        </div>
       </div>
     </section>
 
     <!-- They trusted us   -->
 
     <section
-      class="bg-gray-100 d-flex justify-content-center align-items-center flex-column"
+      class="w-100 bg-gray-100 d-flex justify-content-center align-items-center flex-column"
     >
       <h2 class="fs-1 text-center my-5">They trusted us</h2>
 
@@ -228,7 +312,7 @@
 
     <!-- Our methodology -->
 
-    <section class="my-5rem">
+    <section class="container mx-auto my-5">
       <div class="bg-black text-white rounded-3 w-90 mx-auto">
         <div class="text-center">
           <h1 class="my-3 py-3">Our methodology</h1>
@@ -238,7 +322,7 @@
             and spark ideas.
           </p>
         </div>
-        <div class="row p-5">
+        <div class="row justify-content-center">
           <div
             class="col-md-4 d-flex align-items-center justify-content-center flex-column mb-4 max-w-20rem"
           >
@@ -295,7 +379,7 @@
 
     <!-- Latest projects -->
 
-    <section class="row my-5">
+    <section class="container mx-auto row my-5">
       <div
         class="col d-flex justify-content-center flex-column align-items-start"
       >
@@ -328,7 +412,9 @@
 
     <!-- footer  -->
 
-    <footer class="row">
+    <footer
+      class="container mx-auto row border-top border-top-color p-4 border-start border-end custom-border-color custom-border-width"
+    >
       <div class="col-lg-3">
         <img
           src="Assets/Company Logo.png"
